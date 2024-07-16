@@ -16,7 +16,6 @@ public class Main {
             System.out.println("Проверка не пройдена");
         }
     }
-
     public static void checkCredential(String login, String password, String confirmPassword) {
         if (login.length() > 20) {
             throw new WrongLoginException();
